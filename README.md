@@ -14,6 +14,7 @@
 4. in remote exlporer press the wheel next to ssh
 5. choose the first link
 6. write in the file :
+   ```sh
    Host (any name)
      HostName (IP address)
      User (raspberry's user)
