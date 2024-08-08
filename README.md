@@ -19,8 +19,5 @@
      HostName (IP address)
      User (raspberry's user)
 
-
-
-
 # About the Code
 
