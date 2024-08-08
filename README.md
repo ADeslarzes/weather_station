@@ -1,5 +1,6 @@
-# About the raspberry pi
-User : ssa//
-Password : ssa
+# About the Raspberry Pi
+**Username:** ssa  
+**Password:** ssa
 
-# About the code 
+# About the Code
+
