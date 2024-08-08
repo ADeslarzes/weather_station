@@ -3,14 +3,17 @@
 **Username:** ssa  
 **Password:** ssa
 **ssh:** allowed
-## Table of Contents
-1. [Introduction](#introduction)
-2. [Installation](#installation)
-   1. [Prerequisites](#prerequisites)
-   2. [Steps](#steps)
-3. [Usage](#usage)
-4. [Contributing](#contributing)
-5. [License](#license)
+## How to connect from a mac in ssh
+1. Connect the raspberry to wifi (same than the mac)
+2. from the mac in terminal: ssh (raspberry's user)@(IP address)
+3. on vscode, download Remote exlporer
+4. in remote exlporer press the wheel next to ssh
+5. choose the first link
+6. write in the file :
+   Host (any name)
+     HostName (IP address)
+     User (raspberry's user)
+
 
 
 
