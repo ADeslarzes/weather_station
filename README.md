@@ -1,5 +1,5 @@
 # About the raspberry pi
-User : ssa
+User : ssa//
 Password : ssa
 
 # About the code 
