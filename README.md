@@ -1,23 +1,16 @@
-# About the Raspberry Pi
-## Configuration
-**Username:** ssa  
-**Password:** ssa
-**ssh:** allowed
-## How to Connect to a Raspberry Pi from a Mac Using SSH
+# Raspberry Pi Oracle Weather Station
 
-1. Connect the Raspberry Pi to the same Wi-Fi network as your Mac.
-2. On your Mac, open Terminal and run the following command:
-   ```sh
-   ssh (raspberry's user)@(IP address)
+## Installation
 
-3. on vscode, download Remote exlporer
-4. in remote exlporer press the wheel next to ssh
-5. choose the first link
-6. write in the file :
-   ```sh
-   Host (any name)
-     HostName (IP address)
-     User (raspberry's user)
+Follow the guides and tutorials at [https://github.com/raspberrypilearning/weather\_station\_guide](https://github.com/raspberrypilearning/weather_station_guide) (published at [www.raspberrypi.org/weather-station](https://www.raspberrypi.org/weather-station/))
 
-# About the Code
+## Version
 
+This repo contains the updated version of the software, re-engineered for the [Stretch version of Raspbian](https://www.raspberrypi.org/blog/raspbian-stretch/). If you are an existing Weather Station owner and are using a Pi running the Jessie version of Raspbian, then this code will not work without modification. You should flash your SD card with the [latest Raspbian image](https://www.raspberrypi.org/downloads/raspbian/) and perform a fresh install of this software (you may wish to take a copy of your local MYSQL database first).
+
+## Description of the code
+### bme280_sensor.py
+This code use the bme280 sensor to collect pressure, temperature and humidity. 
+
+### wind.py 
+This compute the wind speed every 5 seconds in km/h
